@@ -1,8 +1,8 @@
 import Hero from "./assets/Hero.jpg";
 
 function App() {
+
   return (
-    <div className="form">
       <section className="bg-gray-50 min-h-screen flex items-center justify-center">
         {/* Login container */}
         <div className="bg-gray-100 flex rounded-2xl shadow-lg p-5 max-w-3xl items-center">
@@ -68,7 +68,6 @@ function App() {
           </div>
         </div>
       </section>
-    </div>
   );
 }
 
